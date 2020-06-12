@@ -1,0 +1,138 @@
+body {
+  background-color: #242321 ;	
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+	body {
+  background: url('../images/westernghats/11.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #76448A;
+}
+
+.navbar-brand {
+  padding-top: 22px;
+  padding-bottom:0; 
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #F4D03F ;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #FFBC3E;
+	text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #BDC3C7;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list a:hover{
+
+	background: #F8C07B ;
+}
+
+#collapsable-nav a span{
+margin-right: 5px;
+
+}
+
+#collapsable-nav a:hover{
+	color: #000;
+background-color: #E8DAEF;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	body {
+  background: url('../images/westernghats/11.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+}
+
+@media (max-width: 767px) {
+
+body {
+  background: url('../images/westernghats/11.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+  .navbar-brand h1 { 
+    padding-top: 3px;
+    font-size: 4vw;
+  }
+	
+}
+
+
+@media (max-width: 479px) {
+ 	
+ 	body {
+  background: url('../images/westernghats/10.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 4vw;
+  }
+
+
+
+}

@@ -1,0 +1,191 @@
+body {
+  background-color: #242321 ;	
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #76448A;
+}
+
+.navbar-brand {
+  padding-top: 22px;
+  padding-bottom:0; 
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #F4D03F ;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #FFBC3E;
+	text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #BDC3C7;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list a:hover{
+
+	background: #F8C07B ;
+}
+
+#collapsable-nav a span{
+margin-right: 5px;
+
+}
+
+#collapsable-nav a:hover{
+	color: #000;
+background-color: #E8DAEF;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.4em;
+  color: #82E0AA ;
+  text-shadow: 5px 5px 10px cyan; 
+  margin-top: 20px;
+  padding-bottom: 30px;
+  
+
+}
+
+.category{ 
+  position: relative;
+  border: 2px solid #F2F3F4;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+}
+.category span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+#list a{
+  text-decoration: none;
+  font-style:oblique;
+
+  }
+
+#list a:hover{
+  color: yellow;
+  font-size: 1.5em;
+}
+
+#top{
+float: right;
+padding-right: 30px;
+}
+
+@media (min-width: 1200px) {
+
+    .category img{
+
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .category img{
+
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .category img{
+
+    height: 100%;
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .category img{
+
+    height: 100%;
+    width: 100%;
+  }
+
+	
+}
+
+
+@media (max-width: 479px) {
+ 	
+
+
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 4vw;
+  }
+
+  h2{
+    font-size: 1em;
+  }
+
+
+  .category span{
+    font-size: 0.8em;
+  }
+
+    .category img{
+
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+}
