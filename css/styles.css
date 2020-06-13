@@ -12,6 +12,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  height: 100%;
 }
 
 #header-nav {
@@ -109,6 +110,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  height: 100%;
 }
 
   .navbar-brand h1 { 
