@@ -93,7 +93,7 @@ background-color: #E8DAEF;
 @media (min-width: 768px) and (max-width: 991px) {
 
 	body {
-  background: url('../images/westernghats/9.jpg') no-repeat center center fixed;
+  background: url('../images/ps.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -105,7 +105,7 @@ background-color: #E8DAEF;
 @media (max-width: 767px) {
 
 body {
-  background: url('../images/westernghats/11.jpg') no-repeat center center fixed;
+  background: url('../images/ps.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
