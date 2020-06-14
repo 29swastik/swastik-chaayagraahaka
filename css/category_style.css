@@ -125,45 +125,121 @@ float: right;
 padding-right: 30px;
 }
 
-@media (min-width: 1200px) {
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
 
-    .category img{
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  border: 1px solid #000;
+
+}
+
+
+.modal-content{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.category img{
 
     height: 100%;
     width: 100%;
-  }
+}
+
+@media (min-width: 1200px) {
+
+
+.modal p img{
+
+  width: 50%;
+  height: 50%;
+
+
+}
+
+
 
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .category img{
+.modal p img{
 
-    height: 100%;
-    width: 100%;
-  }
+
+  width: 50%;
+  height: 50%;
+
+
+}
+
+
 
 }
 
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .category img{
+.modal p img{
 
-    height: 100%;
-    width: 100%;
-  }
+
+  width: 80%;
+  height: 80%;
+  padding-left padding-right: 10px; 
+
+}
 
 
 }
 
 @media (max-width: 767px) {
 
-    .category img{
 
-    height: 100%;
-    width: 100%;
-  }
+.modal p img{
+
+
+  width: 50%;
+  height: 50%;
+  padding-left padding-right: 10px; 
+
+}
+
 
 	
 }
@@ -172,7 +248,15 @@ padding-right: 30px;
 @media (max-width: 479px) {
  	
 
+.modal p img{
 
+
+  width: 80%;
+  height: 80%;
+  padding-left padding-right: 8px; 
+  margin-top: 50px;
+
+}
 
   .navbar-brand h1 { 
     padding-top: 5px;
@@ -188,11 +272,7 @@ padding-right: 30px;
     font-size: 0.8em;
   }
 
-    .category img{
 
-    height: 100%;
-    width: 100%;
-  }
 
 
 
